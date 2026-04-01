@@ -2,6 +2,8 @@
 
 This directory contains some official Claude Code plugins that extend functionality through custom commands, agents, and workflows. These are examples of what's possible with the Claude Code plugin system—many more plugins are available through community marketplaces.
 
+These plugins are reference implementations meant to help you understand Claude Code extension patterns and reuse them in your own repositories. They are not a separate application and do not replace installing Claude Code itself.
+
 ## What are Claude Code Plugins?
 
 Claude Code plugins are extensions that enhance Claude Code with custom slash commands, specialized agents, hooks, and MCP servers. Plugins can be shared across projects and teams, providing consistent tooling and workflows.
@@ -30,17 +32,18 @@ Learn more in the [official plugins documentation](https://docs.claude.com/en/do
 
 These plugins are included in the Claude Code repository. To use them in your own projects:
 
-1. Install Claude Code globally:
-```bash
-npm install -g @anthropic-ai/claude-code
-```
+1. Install Claude Code using one of the currently recommended setup methods from the [setup documentation](https://code.claude.com/docs/en/setup):
+   - macOS/Linux: `curl -fsSL https://claude.ai/install.sh | bash`
+   - macOS/Linux with Homebrew: `brew install --cask claude-code`
+   - Windows: `irm https://claude.ai/install.ps1 | iex`
+   - Windows with WinGet: `winget install Anthropic.ClaudeCode`
 
 2. Navigate to your project and run Claude Code:
 ```bash
 claude
 ```
 
-3. Use the `/plugin` command to install plugins from marketplaces, or configure them in your project's `.claude/settings.json`.
+3. Install plugins from marketplaces with `/plugin`, or copy/adapt examples from this repository and configure them in your project's `.claude/settings.json`.
 
 For detailed plugin installation and configuration, see the [official documentation](https://docs.claude.com/en/docs/claude-code/plugins).
 

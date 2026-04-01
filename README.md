@@ -10,6 +10,12 @@ Claude Code is an agentic coding tool that lives in your terminal, understands y
 
 <img src="./demo.gif" />
 
+## About This Repository
+
+This repository is the public home for Claude Code documentation, examples, GitHub workflows, and official plugins. It is not the complete source code for the Claude Code desktop or CLI runtime.
+
+If you want to use Claude Code, install the Claude Code application first, then run `claude` in your project. If you want to learn how to extend Claude Code, start with the examples and plugins in this repository.
+
 ## Get started
 > [!NOTE]
 > Installation via npm is deprecated. Use one of the recommended methods below.
@@ -47,7 +53,7 @@ For more installation options, uninstall steps, and troubleshooting, see the [se
 
 ## Plugins
 
-This repository includes several Claude Code plugins that extend functionality with custom commands and agents. See the [plugins directory](./plugins/README.md) for detailed documentation on available plugins.
+This repository includes several official Claude Code plugins that extend functionality with custom commands, agents, hooks, and workflows. See the [plugins directory](./plugins/README.md) for detailed documentation on available plugins and how to adapt them for your own projects.
 
 ## Reporting Bugs
 
