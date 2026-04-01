@@ -1,0 +1,9 @@
+{
+  "name": "concept-consistency-review",
+  "version": "0.1.0",
+  "description": "Review concept drift, claim boundaries, and narrative consistency across research-oriented content collections such as PMTSoul",
+  "author": {
+    "name": "Codex",
+    "email": "noreply@example.com"
+  }
+}
